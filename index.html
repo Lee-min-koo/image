@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Cover</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI Voice Cover</h1>
+    </header>
+    <main>
+        <section id="selection">
+            <h2>목소리 모델 선택</h2>
+            <select>
+                <option>아이묭</option>
+                <option>요네즈 켄시</option>
+                <option>요아소비</option>
+            </select>
+        </section>
+        <section id="song">
+            <h2>노래 선택</h2>
+            <select>
+                <option>Love Dive.vocal</option>
+                <option>Hype boy.vocal</option>
+                <option>신호등.vocal</option>
+            </select>
+        </section>
+
+        <section id="generate">
+            <button>커버 생성하기</button>
+        </section>
+        <section id="result">
+            <h2>결과</h2>
+            <audio controls>
+                <source src="path_to_generated_song.mp3" type="audio/mpeg">
+                브라우저가 오디오를 지원하지 않습니다.
+            </audio>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 AI Voice Cover. All rights reserved.</p>
+    </footer>
+</body>
+</html>
